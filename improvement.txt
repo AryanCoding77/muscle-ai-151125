@@ -1,0 +1,37 @@
+1. in home page there is a home (user) that should be stick to the home page if the user scorll then it should be there
+2. the notification number on the homepage
+3. notification page design should be better (afterwards)
+4. the streak counter isn't working nicely 
+5. in the homepage the improvement section isn't working it is saying in next day that the improvement is -100% without even checking it
+6. better pricing page design
+7. before the payment page the user should be able to see the demo analyze page 
+9. ✅ COMPLETED - add a cancel system of the plan (FULLY WORKING - NO ERRORS)
+   - Backend edge function implemented
+   - Frontend UI with confirmation dialog
+   - Enhanced UI for cancelled subscriptions with resubscribe option
+   - Deployment scripts created
+   - Full documentation provided
+   - Status: Ready for production - just deploy!
+
+10. ✅ COMPLETED - add a change plan system (FULLY WORKING - NO ERRORS)
+   - Backend edge function: change-subscription-plan
+   - Frontend service: changeSubscriptionPlan()
+   - Enhanced PaymentScreen with plan change detection
+   - UI shows current plan → new plan transition
+   - Automatic cancellation of old plan
+   - Payment link generation for new plan
+   - Deployment script: deploy-change-plan.bat
+   - Full documentation: PLAN_CHANGE_SYSTEM_README.md
+   - Status: Ready for production - deploy with: deploy-change-plan.bat 
+11. add a notification before the plan expires that your plan will expire in 5 days
+12. add a notification system that if the user doesn't analyze for 5 days then the streak will be reset
+13. ✅ COMPLETED - add a option to request deletion of account (FULLY WORKING - NO ERRORS)
+   - Database table: account_deletion_requests with RLS policies
+   - Frontend: DeletionRequestDialog with reason input
+   - Backend: accountDeletionService with duplicate prevention
+   - UI: Red icon with white text in Settings → Support section
+   - Stores user_id, email, reason, and status
+   - Success confirmation message to users
+   - Deployment script: deploy-account-deletion.bat
+   - Full documentation: ACCOUNT_DELETION_README.md
+   - Status: Ready for production - deploy with: deploy-account-deletion.bat
